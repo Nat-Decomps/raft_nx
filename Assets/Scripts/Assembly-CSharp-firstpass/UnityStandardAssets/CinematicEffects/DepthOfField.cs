@@ -563,7 +563,7 @@ namespace UnityStandardAssets.CinematicEffects
 				textureBokehMaterial.SetTexture("_MainTex", bokehTexture.texture);
 				textureBokehMaterial.SetVector("_Screen", new Vector3(1f / (1f * (float)source.width), 1f / (1f * (float)source.height), num3));
 				textureBokehMaterial.SetPass(0);
-				Graphics.DrawProceduralIndirect(MeshTopology.Points, computeBufferDrawArgs, 0);
+				Graphics.DrawProceduralIndirectNow(MeshTopology.Points, computeBufferDrawArgs, 0);
 				Graphics.Blit(temporaryRenderTexture5, destination);
 			}
 			else

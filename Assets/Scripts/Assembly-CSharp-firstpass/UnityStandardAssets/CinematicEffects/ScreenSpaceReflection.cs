@@ -274,7 +274,7 @@ namespace UnityStandardAssets.CinematicEffects
 			float num5 = camera_.pixelHeight;
 			float num6 = num4 / 2f;
 			float num7 = num5 / 2f;
-			RenderTextureFormat format = (camera_.hdr ? RenderTextureFormat.ARGBHalf : RenderTextureFormat.ARGB32);
+			RenderTextureFormat format = (camera_.allowHDR ? RenderTextureFormat.ARGBHalf : RenderTextureFormat.ARGB32);
 			material.SetInt("_RayStepSize", settings.reflectionSettings.stepSize);
 			material.SetInt("_AdditiveReflection", (settings.reflectionSettings.blendType == SSRReflectionBlendType.Additive) ? 1 : 0);
 			material.SetInt("_BilateralUpsampling", bilateralUpsample ? 1 : 0);

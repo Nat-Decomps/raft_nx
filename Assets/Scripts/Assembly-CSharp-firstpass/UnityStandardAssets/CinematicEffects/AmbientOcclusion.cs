@@ -126,7 +126,7 @@ namespace UnityStandardAssets.CinematicEffects
 		{
 			get
 			{
-				return targetCamera.hdr && occlusionSource == OcclusionSource.GBuffer;
+				return targetCamera.allowHDR && occlusionSource == OcclusionSource.GBuffer;
 			}
 		}
 

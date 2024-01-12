@@ -5,8 +5,9 @@ using UnityEngine.Networking;
 namespace PlayWay.Water
 {
 	[AddComponentMenu("Water/Network Synchronization", 2)]
-	public class NetworkWater : NetworkBehaviour
+	public class NetworkWater : MonoBehaviour
 	{
+		/*
 		[SyncVar]
 		private float time;
 
@@ -88,5 +89,6 @@ namespace PlayWay.Water
 				time = reader.ReadSingle();
 			}
 		}
+		*/
 	}
 }

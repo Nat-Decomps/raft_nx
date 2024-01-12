@@ -179,7 +179,7 @@ namespace PlayWay.Water
 					reflectionCamera = gameObject.AddComponent<Camera>();
 					ValidateReflectionCamera();
 				}
-				reflectionCamera.hdr = systemSupportsHDR && camera.hdr;
+				reflectionCamera.allowHDR = systemSupportsHDR && camera.allowHDR;
 				reflectionCamera.backgroundColor = new Color(0f, 0f, 0f, 0f);
 				currentTarget = GetRenderTexture(camera.pixelWidth, camera.pixelHeight);
 				temporaryTargets[camera] = currentTarget;
@@ -278,7 +278,7 @@ namespace PlayWay.Water
 		{
 			int width2 = Mathf.ClosestPowerOfTwo(width / finalDivider);
 			int height2 = Mathf.ClosestPowerOfTwo(height / finalDivider);
-			TemporaryRenderTexture temporary = RenderTexturesCache.GetTemporary(width2, height2, 0, (reflectionCamera.hdr && systemSupportsHDR) ? RenderTextureFormat.ARGBHalf : RenderTextureFormat.ARGB32, true, false, true);
+			TemporaryRenderTexture temporary = RenderTexturesCache.GetTemporary(width2, height2, 0, (reflectionCamera.allowHDR && systemSupportsHDR) ? RenderTextureFormat.ARGBHalf : RenderTextureFormat.ARGB32, true, false, true);
 			temporary.Texture.filterMode = FilterMode.Trilinear;
 			temporary.Texture.wrapMode = TextureWrapMode.Clamp;
 			return temporary;

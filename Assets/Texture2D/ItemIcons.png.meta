@@ -1,44 +1,108 @@
 fileFormatVersion: 2
 guid: 6366d9f63d8862543a292606afaf6ed5
-timeCreated: 1649264573
-licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Item_SharkmeatRaw
-    21300002: Item_SharkmeatCooked
-    21300004: Icon_Potato
-    21300006: Icon_Hook1
-    21300008: Item_Plank
-    21300010: Item_Scrap
-    21300012: Item_BakedPotato
-    21300014: Item_CanEmpty
-    21300016: Item_CanFresh
-    21300018: Item_CanSalt
-    21300020: Item_FishingRod1
-    21300022: Item_MackerelRaw
-    21300024: Item_MackerelCooked
-    21300026: Item_Hammer
-    21300028: Item_NA
-    21300030: Item_CookingStation
-    21300032: Item_Purifier
-    21300034: Item_Thatch
-    21300036: Item_CropPlot
-    21300038: Item_Rope
-    21300040: Item_Spear
-    21300042: Item_Axe
-    21300044: Item_SeedsPalm
-    21300046: Item_NetGathering
-    21300048: "\xCFtem_CropPlotBig"
-    21300050: Item_Coconut
-    21300052: Item_StorageSmall
-    21300054: Item_Lantern
-    21300056: Item_Table
-    21300058: Item_Chair
-    21300060: Item_Beet
-    21300062: Item_BeetCooked
-    21300064: Item_Nail
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Item_SharkmeatRaw
+  - first:
+      213: 21300002
+    second: Item_SharkmeatCooked
+  - first:
+      213: 21300004
+    second: Icon_Potato
+  - first:
+      213: 21300006
+    second: Icon_Hook1
+  - first:
+      213: 21300008
+    second: Item_Plank
+  - first:
+      213: 21300010
+    second: Item_Scrap
+  - first:
+      213: 21300012
+    second: Item_BakedPotato
+  - first:
+      213: 21300014
+    second: Item_CanEmpty
+  - first:
+      213: 21300016
+    second: Item_CanFresh
+  - first:
+      213: 21300018
+    second: Item_CanSalt
+  - first:
+      213: 21300020
+    second: Item_FishingRod1
+  - first:
+      213: 21300022
+    second: Item_MackerelRaw
+  - first:
+      213: 21300024
+    second: Item_MackerelCooked
+  - first:
+      213: 21300026
+    second: Item_Hammer
+  - first:
+      213: 21300028
+    second: Item_NA
+  - first:
+      213: 21300030
+    second: Item_CookingStation
+  - first:
+      213: 21300032
+    second: Item_Purifier
+  - first:
+      213: 21300034
+    second: Item_Thatch
+  - first:
+      213: 21300036
+    second: Item_CropPlot
+  - first:
+      213: 21300038
+    second: Item_Rope
+  - first:
+      213: 21300040
+    second: Item_Spear
+  - first:
+      213: 21300042
+    second: Item_Axe
+  - first:
+      213: 21300044
+    second: Item_SeedsPalm
+  - first:
+      213: 21300046
+    second: Item_NetGathering
+  - first:
+      213: 21300048
+    second: "\xCFtem_CropPlotBig"
+  - first:
+      213: 21300050
+    second: Item_Coconut
+  - first:
+      213: 21300052
+    second: Item_StorageSmall
+  - first:
+      213: 21300054
+    second: Item_Lantern
+  - first:
+      213: 21300056
+    second: Item_Table
+  - first:
+      213: 21300058
+    second: Item_Chair
+  - first:
+      213: 21300060
+    second: Item_Beet
+  - first:
+      213: 21300062
+    second: Item_BeetCooked
+  - first:
+      213: 21300064
+    second: Item_Nail
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -56,6 +120,9 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -86,11 +153,15 @@ TextureImporter:
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: -1
@@ -100,7 +171,9 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: Standalone
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
     maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: -1
@@ -110,7 +183,9 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: PSP2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: PSP2
     maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: -1
@@ -120,6 +195,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -148,6 +224,13 @@ TextureImporter:
         - {x: -21, y: -11.961939}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Item_SharkmeatCooked
       rect:
@@ -170,6 +253,13 @@ TextureImporter:
         - {x: 19, y: -30.961939}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Icon_Potato
       rect:
@@ -197,6 +287,13 @@ TextureImporter:
         - {x: 32, y: -23}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Icon_Hook1
       rect:
@@ -216,6 +313,13 @@ TextureImporter:
         - {x: 32, y: -23.474344}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Item_Plank
       rect:
@@ -238,6 +342,13 @@ TextureImporter:
         - {x: 15.000001, y: -28.524683}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Item_Scrap
       rect:
@@ -261,6 +372,13 @@ TextureImporter:
         - {x: 20, y: -32}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Item_BakedPotato
       rect:
@@ -286,6 +404,13 @@ TextureImporter:
         - {x: 32, y: -15.000001}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Item_CanEmpty
       rect:
@@ -308,6 +433,13 @@ TextureImporter:
         - {x: 31.038063, y: -5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Item_CanFresh
       rect:
@@ -330,6 +462,13 @@ TextureImporter:
         - {x: 4.0098743, y: -32}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Item_CanSalt
       rect:
@@ -352,6 +491,13 @@ TextureImporter:
         - {x: 4.009882, y: -32}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Item_FishingRod1
       rect:
@@ -382,6 +528,13 @@ TextureImporter:
         - {x: -16, y: -29}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Item_MackerelRaw
       rect:
@@ -403,6 +556,13 @@ TextureImporter:
         - {x: 31, y: -16}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Item_MackerelCooked
       rect:
@@ -425,6 +585,13 @@ TextureImporter:
         - {x: -6.499996, y: -31.538065}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Item_Hammer
       rect:
@@ -450,6 +617,13 @@ TextureImporter:
         - {x: 8.494434, y: -31}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Item_NA
       rect:
@@ -475,6 +649,13 @@ TextureImporter:
         - {x: 32, y: 4.461939}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Item_CookingStation
       rect:
@@ -498,6 +679,13 @@ TextureImporter:
         - {x: 21, y: -32}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Item_Purifier
       rect:
@@ -520,6 +708,13 @@ TextureImporter:
         - {x: 22, y: -32}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Item_Thatch
       rect:
@@ -542,6 +737,13 @@ TextureImporter:
         - {x: -6.986624, y: -31.978546}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Item_CropPlot
       rect:
@@ -564,6 +766,13 @@ TextureImporter:
         - {x: 11.500004, y: -31.008406}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Item_Rope
       rect:
@@ -586,6 +795,13 @@ TextureImporter:
         - {x: 29.975311, y: 0}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Item_Spear
       rect:
@@ -608,6 +824,13 @@ TextureImporter:
         - {x: 20.013376, y: -22.48325}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Item_Axe
       rect:
@@ -634,6 +857,13 @@ TextureImporter:
         - {x: 25.987606, y: -10}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Item_SeedsPalm
       rect:
@@ -670,6 +900,13 @@ TextureImporter:
         - {x: 29.461948, y: -30.05917}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Item_NetGathering
       rect:
@@ -691,6 +928,13 @@ TextureImporter:
         - {x: 32, y: -23.986624}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e4305410000000000800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: "\xCFtem_CropPlotBig"
       rect:
@@ -717,6 +961,13 @@ TextureImporter:
         - {x: 3, y: -31.96194}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Item_Coconut
       rect:
@@ -740,6 +991,13 @@ TextureImporter:
         - {x: 14.038059, y: -32.038055}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 25305410000000000800000000000000
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Item_StorageSmall
       rect:
@@ -765,6 +1023,13 @@ TextureImporter:
         - {x: 20, y: -32}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 45305410000000000800000000000000
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Item_Lantern
       rect:
@@ -785,6 +1050,13 @@ TextureImporter:
         - {x: 31.038063, y: -26}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 65305410000000000800000000000000
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Item_Table
       rect:
@@ -808,6 +1080,13 @@ TextureImporter:
         - {x: -3, y: -31.028154}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 85305410000000000800000000000000
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Item_Chair
       rect:
@@ -834,6 +1113,13 @@ TextureImporter:
         - {x: 30.018143, y: -31.96194}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a5305410000000000800000000000000
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Item_Beet
       rect:
@@ -855,6 +1141,13 @@ TextureImporter:
         - {x: 30.52469, y: -13}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c5305410000000000800000000000000
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Item_BeetCooked
       rect:
@@ -877,6 +1170,13 @@ TextureImporter:
         - {x: 19.524689, y: -29.961943}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e5305410000000000800000000000000
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Item_Nail
       rect:
@@ -905,9 +1205,26 @@ TextureImporter:
         - {x: 8.506033, y: -28.486624}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 06305410000000000800000000000000
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
